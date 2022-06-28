@@ -1,0 +1,46 @@
+* {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 48rem;
+    margin: auto;
+}
+.header{
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    /* gap: 10%; */
+}
+input, button{
+    margin: .5rem
+}
+.col-1-of-2 {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.col-1-of-1 {
+    flex-basis: 100%;
+
+}
+.check-box{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.check-box p,span{
+    font-size: .8rem;
+    margin: .5rem
+}
+.agreement{
+    margin-right: 5rem;
+}
