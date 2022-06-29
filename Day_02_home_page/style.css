@@ -8,7 +8,6 @@
 
 header{
     height: 4rem;
-    
     width: 100%;
 }
 
@@ -51,7 +50,7 @@ li a{
 }
 
 .contents{
-    margin: 0 7rem;
+    margin: 0 7rem 4rem 7rem;
 }
 .contents p{
     position: relative;
