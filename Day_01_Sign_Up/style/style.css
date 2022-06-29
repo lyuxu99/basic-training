@@ -1,0 +1,81 @@
+* {
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 48rem;
+    margin: auto;
+}
+.header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    /* gap: 10%; */
+}
+input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: .5rem .5rem;
+    outline-color: lightblue;
+   
+}
+input, button{
+    margin: .5rem
+}
+.col-1-of-2 {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.col-1-of-1 {
+    flex-basis: 100%;
+
+}
+.check-box{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.check-box p{
+    font-size: .8rem;
+    margin: .5rem
+}
+.agreement{
+    margin-right: 5rem;
+}
+.check-box span{
+    background-color: rgb(25, 118, 210);
+    color: white;
+    font-size: .8rem;
+    border-radius: 5px;
+    padding: .2rem .4rem;
+}
+
+.check-box a{
+    font-size: .8rem;
+    text-decoration: none;
+}
+.btn-register{
+    background-color: rgb(25, 118, 210);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: .5rem 0;   
+}
+
+.btn-sign-in{
+    background-color: #8AC007;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: .5rem 0;   
+}
