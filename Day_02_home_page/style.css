@@ -6,6 +6,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    height: 4rem;
+    
+    width: 100%;
+}
 
 nav {
     background-color: #000;
@@ -13,11 +18,12 @@ nav {
     height: 4rem;
     overflow: hidden;
     z-index: 2;
+    position: fixed;
 }
 
 .header-nav{
     margin-left: 13rem;
-    position: fixed;
+    
 }
 
 li a{
@@ -37,7 +43,6 @@ li a{
     background-color: #c6bfbf;
     padding: 2rem 11.5%;
     width: 100%;
-    /* position: absolute; */
 }
 
 .title h1{
